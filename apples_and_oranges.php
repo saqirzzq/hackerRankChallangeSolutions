@@ -1,10 +1,5 @@
 <?php
 
-// Complete the diagonalDifference function below.
-function pr($a) { echo '<pre>'; print_r($a); echo '</pre>'; }
-function pex($a) { echo '<pre>'; print_r($a); echo '</pre>'; exit; }
-function dp($a) { echo $a . "\n"; }
-
 function countApplesAndOranges($s, $t, $a, $b, $apples, $oranges) {  
   $count = function($fPos, $tPos, $s, $t) {
   	$c = 0;
@@ -23,6 +18,3 @@ function countApplesAndOranges($s, $t, $a, $b, $apples, $oranges) {
 
  	echo "$foundApples\n$foundOranges";
 }
-
-// exp 1 1
-countApplesAndOranges(7, 11, 5, 15, array(-2, 2, 1), array(5, -6));
